@@ -10,6 +10,7 @@ html,body
     font-size: 16px;
      font-family: 'Open Sans',serif;
     color: #777;
+    margin: 0;
 }
 
 section
@@ -49,6 +50,7 @@ header
     width: 100%;
     background-position: center;
 /*    padding: 2em;*/
+    margin-top: -1.3em;
 }
 
 /*=========== navbar================== */
@@ -57,9 +59,19 @@ nav
     display: flex;
 /*    background-color: aqua;*/
     flex-wrap: wrap;
-/*    background-color: #2980b9;*/
-/*    position: fixed; */
-/*    width: 100%;*/
+    background-color: none;
+    position: fixed; 
+    width: 100%;
+    z-index: 100;
+}
+
+.nav-transparent
+{
+    background-color:none; 
+}
+.nav-colored
+{
+    background-color: #304269;
 }
 
 nav ul li
@@ -133,7 +145,7 @@ ul.nav_bar li:hover::after
     flex-flow: column;
     justify-content: center;
     align-items: center;
-    height: 30em;
+    height: 40em;
     margin-top: 20px;
     
 }
@@ -511,6 +523,11 @@ h3.social_head
         font-family: sans-serif;
         color: #777;
     }
+    header
+    {
+        height: 90vh;
+        margin-top: -3em;
+    }
     nav
     {
         display: flex;
@@ -527,7 +544,15 @@ h3.social_head
     {
         margin-top: 85px;
     }
+    .hero-text-min
+    {
+        margin-top: 8em;
+    }
     
+    .arrow
+    {
+        margin-top: 8em;
+    }
     
     .features_item
     {
