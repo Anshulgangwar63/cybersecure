@@ -49,15 +49,15 @@ header
     background-size: cover;
     width: 100%;
     background-position: center;
-/*    padding: 2em;*/
+
     margin-top: -1.3em;
 }
 
 /*=========== navbar================== */
+
 nav
 {
     display: flex;
-/*    background-color: aqua;*/
     flex-wrap: wrap;
     background-color: none;
     position: fixed; 
@@ -122,15 +122,12 @@ nav ul.nav_bar li::after
 {
     content: " ";
     background-color: white;
-    /* position: absolute; */
     width: 0;
     height: 5px;
     display: block;
     border-radius: 1px;
     transition: 1s;	
     margin: 0 auto;
-    /* left: 50%; */
-    /* align-items: center; */
 }
 
 ul.nav_bar li:hover::after
@@ -139,6 +136,7 @@ ul.nav_bar li:hover::after
 } 
 
 /*==================== hero style ==========================*/
+
 .hero
 {
     display: flex;
