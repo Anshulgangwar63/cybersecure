@@ -38,7 +38,6 @@ nav
     width: 100%;
     z-index: 100;
     top: 0;
-/*    box-shadow: 5px 5px 5px black;*/
 }
 
 .nav-transparent
@@ -106,8 +105,6 @@ nav ul.nav_bar li::after
     border-radius: 1px;
     transition: 1s;	
     margin: 0 auto;
-    /* left: 50%; */
-    /* align-items: center; */
 }
 
 ul.nav_bar li:hover::after
@@ -116,22 +113,7 @@ ul.nav_bar li:hover::after
 } 
 
 
-/*
-.outer_container::after
-{
-     content: '';
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    width: 100%;
-    height: 210px;
-    transform: rotate(180deg);
-    background: url(wave2.png);
-    background-size: 1400px 257px;
-}
-
-*/
-
+/* Information */
 
 
 .info
