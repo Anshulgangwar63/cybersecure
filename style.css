@@ -166,7 +166,7 @@ ul.nav_bar li:hover::after
 }
 
 
-
+/* home page button */
 
 .hero .hero_button 
 {
@@ -437,7 +437,6 @@ ul.contact_us li.contact_header p.head-1
     padding:1em 2em 1em 2em;
     text-decoration: none;
     color: white;
-/*    background-color: black;*/
     background: linear-gradient(to right bottom,rgb(7,129,202),black);
     border-radius: 1.5em;
     transition: .5s;
@@ -576,7 +575,6 @@ h3.social_head
 .item:nth-child(4)
 {
     flex-grow: 2;
-/*    background-color:red;*/
     height: 2em;
     margin-right: 2em;
 }
