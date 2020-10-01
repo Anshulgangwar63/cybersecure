@@ -98,7 +98,6 @@ nav ul.nav_bar li::after
 {
     content: " ";
     background-color: white;
-    /* position: absolute; */
     width: 0;
     height: 5px;
     display: block;
