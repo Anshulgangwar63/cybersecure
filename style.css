@@ -152,7 +152,6 @@ ul.nav_bar li:hover::after
 .hero p.hero-text-min
 {
     font-size: 3em;
-/*    margin-bottom: .2em;*/
     color: white;
     font-family: 'Playfair Display', serif;
 }
@@ -172,7 +171,6 @@ ul.nav_bar li:hover::after
 {
     background-color: white;
     color: rgb(7,129,202);
-/*    color: transparent;*/
     text-decoration: none;  
     font-size: 1.5em;
     padding: .8em 2em .8em 2em;
