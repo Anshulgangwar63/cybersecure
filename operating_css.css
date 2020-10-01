@@ -11,7 +11,6 @@ html,body
      font-family: 'Open Sans',serif;
     color: #fff;
     margin: 0;
-/*    background-color: #304269;*/
 }
 
 header
@@ -123,7 +122,6 @@ ul.nav_bar li:hover::after
     text-align: center;
 /*    box-shadow: 5px 5px 5px black;*/
     padding: 2em;
-/*    border: 1px solid black;*/
     transition: .5s;
 }
 
