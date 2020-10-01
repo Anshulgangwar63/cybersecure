@@ -185,6 +185,11 @@ ul.nav_bar li:hover::after
     animation: strech 1s linear infinite;
 }
 
+/*==================
+  Keyframe animations
+====================*/
+
+
 @keyframes strech
 {
     0%
