@@ -261,8 +261,6 @@ h2.about_us_header::after
     content: '';
     width: 20%;
     height: 5px;
-/*    -webkit-background-clip: text;*/
-/*    background-image: url(background2.jpg);*/
     display: block;
     background: linear-gradient(to right,rgb(7,129,202),black);
     margin: 0 auto;
@@ -327,7 +325,6 @@ h2.about_us_header::after
 .item:nth-child(4)
 {
     flex-grow: 2;
-/*    background-color:red;*/
     height: 25em;
     margin-right: 2em;
 }
@@ -342,7 +339,6 @@ h2.about_us_header::after
     color: transparent;
     -webkit-background-clip: text;
     background-image:linear-gradient(to right,rgb(7,129,202),black);
-/*    padding: 1em;*/
 }
 
 .item  h3.item_header::after
